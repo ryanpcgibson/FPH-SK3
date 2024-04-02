@@ -1,3 +1,4 @@
+-- Manually created 
 DROP TABLE IF EXISTS "memory_hearts";
 DROP TABLE IF EXISTS "pet_hearts";
 DROP TABLE IF EXISTS "pet_memories";
@@ -18,6 +19,7 @@ DROP TYPE IF EXISTS "connection_types";
 DROP TYPE IF EXISTS "location_types";
 DROP TYPE IF EXISTS "animal_types";
 
+-- Below is generated from https://dbdiagram.io/d/FPH-v2-Schema-660b8e5f03593b6b61eb773e
 CREATE TYPE "animal_types" AS ENUM (
   'Dog',
   'Cat',
