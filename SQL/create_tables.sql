@@ -89,7 +89,7 @@ CREATE TABLE "beings" (
 
 CREATE VIEW "humans" AS
 SELECT
-  "being_id",
+  "being_id" as human_id,
   "name",
   "start_date",
   "end_date",
@@ -101,7 +101,7 @@ WHERE
 
 CREATE VIEW "pets" AS
 SELECT
-  "being_id" AS id,
+  "being_id" AS pet_id,
   "name",
   "start_date",
   "end_date",

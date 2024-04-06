@@ -41,10 +41,10 @@ VALUES
 INSERT INTO "viewable_beings" ("being_id", "user_id")
 VALUES
 (1, 'user1'),
-(2, 'user2'),
-(3, 'user3'),
-(4, 'user4'),
-(5, 'user5');
+(2, 'user1'),
+(3, 'user1'),
+(4, 'user1'),
+(5, 'user1');
 
 -- Viewable Locations
 INSERT INTO "viewable_locations" ("location_id", "user_id")
